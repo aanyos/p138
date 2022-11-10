@@ -1,0 +1,55 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+body
+{
+    background-size: cover;
+    background-position: center;
+}
+
+canvas
+{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+
+.menu{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width: 600px;
+}
+
+.mybutton{
+    border: 3px solid black;
+    border-radius: 20px;
+    font-size: medium;
+    padding: 15px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
